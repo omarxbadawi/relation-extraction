@@ -12,5 +12,14 @@
 2. Open the `models/transformer.ipynb` notebook.
 3. Run the first (`Options`) and second (`Transformer Model`) code cells.
 4. Run the final (`Model Demo`) code cell.
-5. Enter input sentences (including entity delimiters, as described in the notebook) to see the predicted relations and their corresponding probabilities.
+5. Enter input sentences (including entity delimiters, as described in the notebook) to see the predicted relations and their corresponding confidence scores.
+6. Enter no input to end the demo.
+
+## CNN Model
+### How to Run the Demo
+1. Download the trained model archive from [OneDrive](https://livemanchesterac-my.sharepoint.com/:u:/g/personal/omar_badawi-2_student_manchester_ac_uk/EQkCZi6Gg31Omdah4KfvPawBuctBIkMtzcBmdpA80Rm1zA?e=C8Z2ok). The archive also contains tuning iterations along with their respective model weights.
+2. Unzip the `cnn` folder and move it into `models/` directory.
+2. Open the `models/cnn_demo.ipynb` notebook.
+3. Run all code cells.
+5. Enter input sentences (including entity delimiters, as described in the notebook) to see the predicted relations and their corresponding confidence scores.
 6. Enter no input to end the demo.
